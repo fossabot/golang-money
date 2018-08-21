@@ -3,7 +3,8 @@
 ##Distributed Tracing using Go
 This is the Go implementation of [Money](https://github.com/Comcast/money)
 
-[![Build Status](https://travis-ci.org/Comcast/golang-money.svg?branch=master)](https://travis-ci.org/Comcast/golang-money) 
+[![Build Status](https://travis-ci.org/Comcast/golang-money.svg?branch=master)](https://travis-ci.org/Comcast/golang-money) [![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fannania%2Fgolang-money.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2Fannania%2Fgolang-money?ref=badge_shield)
+
 [![codecov.io](http://codecov.io/github/Comcast/golang-money/coverage.svg?branch=master)](http://codecov.io/github/Comcast/golang-money?branch=master) 
 [![Go Report Card](https://goreportcard.com/badge/github.com/Comcast/golang-money)](https://goreportcard.com/report/github.com/Comcast/golang-money) 
 
@@ -38,3 +39,6 @@ The basics to start a Money trace are a trace id name and starting span id numbe
 ```
 Money:trace-id=YourTraceId;span-id=12345;
 ```
+
+## License
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fannania%2Fgolang-money.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2Fannania%2Fgolang-money?ref=badge_large)
